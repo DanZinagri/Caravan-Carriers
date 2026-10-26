@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Settings window -->
+  <CaravanCarriers_SettingsCategory>Caravan Carriers</CaravanCarriers_SettingsCategory>
+  <CaravanCarriers_Intro>A carrier carries one caravan member the way a rideable animal does, and is not counted as a rider itself. Changes apply straight away.</CaravanCarriers_Intro>
+  <CaravanCarriers_StatRule>Any adult whose caravan riding speed is above 100% is a carrier and uses that value. Genes or a race can raise it.</CaravanCarriers_StatRule>
+  <CaravanCarriers_SizeRule>Big pawns carry too</CaravanCarriers_SizeRule>
+  <CaravanCarriers_SizeRuleTip>Lets large pawns carry without a caravan riding speed of their own.</CaravanCarriers_SizeRuleTip>
+  <!-- {0}: body size, e.g. 2.0 -->
+  <CaravanCarriers_MinBodySize>Minimum body size: {0}</CaravanCarriers_MinBodySize>
+  <!-- {0}: percentage, e.g. 130% -->
+  <CaravanCarriers_SizeFactor>Caravan speed for the member carried: {0}</CaravanCarriers_SizeFactor>
+  <CaravanCarriers_SizeFactorNote>For comparison, vanilla horses give 160% and most other rideable animals 130%. A carrier with a higher caravan riding speed of its own keeps that instead.</CaravanCarriers_SizeFactorNote>
+
+  <!-- Caravan and transport dialogs: tooltip on the rideable icon next to a carrier. {0}: percentage, e.g. 140% -->
+  <CaravanCarriers_CarrierTip>Can carry one caravan member, the way a rideable animal does.\n\nCaravan speed for the member carried: {0}</CaravanCarriers_CarrierTip>
+
+</LanguageData>

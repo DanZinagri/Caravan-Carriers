@@ -86,7 +86,7 @@ namespace CaravanCarriers
             GUI.DrawTexture(iconRect, CarrierIcon.Texture);
             if (Mouse.IsOver(iconRect))
             {
-                TooltipHandler.TipRegion(iconRect, "Can carry one caravan member, the way a rideable animal does.\n\nCaravan speed for the member carried: " + factor.ToStringPercent());
+                TooltipHandler.TipRegion(iconRect, "CaravanCarriers_CarrierTip".Translate(factor.ToStringPercent()));
             }
         }
     }
